@@ -89,6 +89,7 @@ this is the example for the RACLO study. ABP studies and FMZ Scripts are sligltl
 1.Download the files from r'/home/projects/multimodal/rlochana/RACLO'.
 
 2.Update the script with your paths:
+
 ---
 ## In convert_to_bids.py (example)
 
