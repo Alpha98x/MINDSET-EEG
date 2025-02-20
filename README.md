@@ -95,7 +95,7 @@ input_dir       = r'/home/MR/mr_user/TRIMODAL_Team_Data/PET_MR_EEG_Studies/RACLO
 output_dir      = r'/home/projects/mindset/RACLO'
 file_map_excel  = r'/home/projects/multimodal/rlochana/test_output_dir/File-MR_ID.xlsx'
 sub_map_excel   = r'/home/projects/multimodal/rlochana/test_output_dir/MR_ID-subject.xlsx'
----
+
 3.Run the script
 python convert_to_bids.py
 
