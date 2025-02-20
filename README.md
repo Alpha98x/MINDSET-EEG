@@ -82,8 +82,8 @@ mne: Reading .vhdr (BrainVision) files.
 mne-bids: Writing BIDS-compliant structures.
 pandas: Reading Excel spreadsheets.
 
-Usage
-important 
+## Usage
+### important 
 this is the example for the RACLO study. ABP studies and FMZ Scripts are sligltly different from this script. If Subject data and MR ID is available ABP script can be used.
 
 1.Download the files from r'/home/projects/multimodal/rlochana/RACLO'.
@@ -91,7 +91,7 @@ this is the example for the RACLO study. ABP studies and FMZ Scripts are sligltl
 2.Update the script with your paths:
 
 ---
-## In convert_to_bids.py (example)
+In convert_to_bids.py (example)
 
 input_dir       = r'/home/MR/mr_user/TRIMODAL_Team_Data/PET_MR_EEG_Studies/RACLO'
 
