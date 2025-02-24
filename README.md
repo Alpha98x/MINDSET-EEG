@@ -17,11 +17,21 @@ R078_Day1_25012018_Rest2.vhdr R078_Day1_25012018_Rest2.eeg R078_Day1_25012018_Re
 - A folder (**`output_dir`**) where the script will generate a BIDS-compliant directory structure.  
 - After the conversion, you’ll have a structure like:
 
-output_dir/ └── sub-<SubjectID>/ └── ses-<MRID>/ └── eeg/ 
-├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.vhdr 
-├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.eeg 
-├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.vmrk 
-└── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.json
+output_dir/
+
+└── sub-<SubjectID>/
+
+  └── ses-<MRID>/
+  
+    └── eeg/ 
+    
+      ├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.vhdr 
+      
+      ├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.eeg 
+      
+      ├── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.vmrk
+      
+      └── sub-<SubjectID>_ses-<MRID>_task-<Task>_run-01_eeg.json
 
 
 ### Excel Sheets
